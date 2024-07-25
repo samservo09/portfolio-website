@@ -3106,3 +3106,13 @@ input, select, textarea {
 			}
 
 	}
+
+/* To make contents move */
+.parallax {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	z-index: 1;
+}
