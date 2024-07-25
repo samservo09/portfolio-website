@@ -1760,8 +1760,8 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			width: 50%;
+			margin: auto;
 		}
 
 		.image.left {
@@ -2539,7 +2539,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background: #fff;
+		background: #212121;
+		color: #fff;
 		border-top: solid 5px #b1ddab;
 		border-bottom: solid 5px #c1cac5;
 		border-top-width: 35px;
