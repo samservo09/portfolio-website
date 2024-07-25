@@ -2316,7 +2316,7 @@ input, select, textarea {
 		#header .logo {
 			position: relative;
 			text-align: center;
-			border-top: solid 5px #e7eae8;
+			border-top: solid 5px #0C2247;
 			top: 0.65em;
 		}
 
@@ -2835,7 +2835,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: #0C2247;
 					}
 
 			#navPanel {
