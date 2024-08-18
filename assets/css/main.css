@@ -1591,7 +1591,24 @@ section,
   margin-right: 5px;
 }
 
-/*--------------------------------------------------------------
+.team .btn-get-started {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 12px 40px;
+  margin: 30px 0 0 0;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.team .btn-get-started:hover {
+  background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+}
+  /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-item+.info-item {
